@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "WordCount.Main",
+            "projectName": "java-WordCount_2fe2f4b7"
+        }
+    ]
+}
