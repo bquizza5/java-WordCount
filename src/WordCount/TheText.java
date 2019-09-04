@@ -1,4 +1,4 @@
-package WordCount;
+package wordCount;
 
 public class TheText {
     

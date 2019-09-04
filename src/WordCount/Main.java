@@ -1,4 +1,4 @@
-package WordCount;
+package wordCount;
 
 import java.util.*;
 
@@ -27,7 +27,7 @@ public static void main(String[] args){
         if (!map.containsKey(aWord)) {
             map.put(aWord, 1);
         } else {
-            map.put(aWord, 1);
+            map.put(aWord, map.get(aWord) + 1);
         }
     }
     ArrayList<HashMap.Entry<String, Integer>> sortedMap = new ArrayList<HashMap.Entry<String, Integer>>();
@@ -38,5 +38,10 @@ public static void main(String[] args){
             return o2.getValue() - o1.getValue();
         }
     });
+    for (int i=0; i < 50; i++)
+    {
+        System.out.println(sortedMap.get(i));
+    }
+    
 }
 }
